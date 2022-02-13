@@ -1,4 +1,6 @@
 import * as Mui from "@mui/material";
+import * as MuiIcons from "@mui/icons-material";
+import * as Assets from "src/assets";
 
 export const AppBar = () => {
   const trigger = Mui.useScrollTrigger({
@@ -19,6 +21,13 @@ export const AppBar = () => {
         >
           Developer
         </Mui.Typography>
+        <Mui.Box flexGrow={1} />
+        <Mui.Button variant="contained" href={Assets.Resume} download>
+          Get Resume
+        </Mui.Button>
+        <Mui.IconButton component={Mui.Link} href="https://wa.me/916374399577">
+          <MuiIcons.WhatsApp color="primary" fontSize="large" />
+        </Mui.IconButton>
       </Mui.Stack>
     </Mui.AppBar>
   );

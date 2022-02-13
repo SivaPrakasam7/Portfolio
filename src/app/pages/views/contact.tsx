@@ -20,9 +20,7 @@ export const Contact = () => (
     </Mui.Grid>
     <Mui.Grid item xs={12} sm={6}>
       <Mui.Stack spacing={2}>
-        <Mui.Typography variant="h5">
-          Social Links
-        </Mui.Typography>
+        <Mui.Typography variant="h5">Social Links</Mui.Typography>
         <Mui.Stack direction="row" spacing={1}>
           <MuiIcons.GitHub color="primary" />
           <Mui.Typography
