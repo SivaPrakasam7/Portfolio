@@ -5,6 +5,6 @@ export const EXPERIENCE = [
     time: "AUG 2021 - Present",
     company: "Pyramidions solutions",
     description:
-      "I learn more javascripts methods, and some effecient architectures for coding",
+      "I learn some new js methods, and coding architecture in collaborated work with team",
   },
 ];
