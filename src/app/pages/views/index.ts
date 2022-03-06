@@ -5,3 +5,5 @@ export * from "./footer";
 export * from "./header-content";
 export * from "./profile";
 export * from "./projects";
+export * from "./support";
+export * from "./webApps";

@@ -24,6 +24,12 @@ export const Main = () => (
             <Pages.Views.Profile />
           </Mui.Grid>
           <Mui.Grid item xs={12}>
+            <Pages.Views.Support />
+          </Mui.Grid>
+          <Mui.Grid item xs={12}>
+            <Pages.Views.WebApps />
+          </Mui.Grid>
+          <Mui.Grid item xs={12}>
             <Pages.Views.Projects />
           </Mui.Grid>
           <Mui.Grid item xs={12}>

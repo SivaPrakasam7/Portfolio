@@ -1,7 +1,6 @@
-import CorrectedBG from "src/assets/corrected_bg.jpg";
-import NormalBg from "src/assets/normal_bg.jpg";
-import Bg from "src/assets/bg.jpg";
-import OldMe from "src/assets/old_me.jpg";
-import Resume from "src/assets/Siva Prakasam Ganesan.pdf";
-
-export { CorrectedBG, NormalBg, Bg, OldMe, Resume };
+export { default as CorrectedBG } from "src/assets/corrected_bg.jpg";
+export { default as NormalBg } from "src/assets/normal_bg.jpg";
+export { default as Bg } from "src/assets/bg.jpg";
+export { default as OldMe } from "src/assets/old_me.jpg";
+export { default as Resume } from "src/assets/Siva Prakasam Ganesan.pdf";
+export { default as Freelauncer } from "src/assets/freelauncer_vector.jpg";
