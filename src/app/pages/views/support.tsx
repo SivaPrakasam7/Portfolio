@@ -45,7 +45,7 @@ export const Support = () => (
                 1
               </Mui.Typography>
               <Mui.Typography variant="h6" color="primary">
-                Contributions
+                Contribution
               </Mui.Typography>
             </Mui.Stack>
             <Mui.Typography variant="body1" sx={{ pl: 5 }}>
@@ -72,14 +72,14 @@ export const Support = () => (
                 2
               </Mui.Typography>
               <Mui.Typography variant="h6" color="primary">
-                Freelancer
+                Hire me
               </Mui.Typography>
             </Mui.Stack>
             <Mui.Typography variant="body1" sx={{ pl: 5 }}>
               - I provide my best with your team.
             </Mui.Typography>
             <Mui.Typography variant="body1" sx={{ pl: 5 }}>
-              - You can also verify resume in it. If you're satisfied contact me.
+              - You can also verify resume. Let me help you.
             </Mui.Typography>
           </Mui.Stack>
           <Mui.Stack spacing={1}>
