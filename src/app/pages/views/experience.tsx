@@ -27,7 +27,38 @@ const ExperienceCard = ({
   company,
   description,
 }: experience) => (
-  <Mui.Card sx={{ maxWidth: "sm", position: "relative" }}>
+  <Mui.Card
+    sx={{
+      maxWidth: "sm",
+      position: "relative",
+      background: "#ffffff10",
+      "&::before": {
+        content: `'${time}'`,
+        position: "absolute",
+        bgcolor: "primary.main",
+        height: 30,
+        width: 180,
+        bottom: 0,
+        right: 0,
+        borderTopLeftRadius: 20,
+        // borderTopRightRadius: 20,
+        p: 1,
+        pl: 2,
+        color: "#fff",
+        fontSize: 12,
+      },
+      border: (theme) =>
+        `1px solid ${Mui.colors.grey[200]}${
+          theme.palette.mode === "dark" ? "20" : ""
+        }`,
+      "&:hover": {
+        boxShadow: (theme) =>
+          theme.palette.mode === "dark"
+            ? "0 2px 5px #ffffff50"
+            : "0 2px 5px #00000050",
+      },
+    }}
+  >
     <Mui.Stack
       component={Mui.CardContent}
       spacing={2}
@@ -37,13 +68,6 @@ const ExperienceCard = ({
       <Mui.Avatar src={logo} sx={{ height: 70, width: 70 }} />
       <Mui.Stack spacing={1} sx={{ width: "100%" }}>
         <Mui.Typography variant="h6">{position}</Mui.Typography>
-        <Mui.Typography
-          variant="caption"
-          color="text.secondary"
-          sx={{ position: "absolute", top: 5, right: 10 }}
-        >
-          {time}
-        </Mui.Typography>
         <Mui.Typography
           variant="body2"
           color="primary"

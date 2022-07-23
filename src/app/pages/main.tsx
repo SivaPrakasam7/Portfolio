@@ -4,6 +4,20 @@ import * as Assets from "src/assets";
 
 export const Main = () => (
   <>
+    <div className="area">
+      <ul className="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
     <Mui.Box
       sx={{
         backgroundImage: `url('${Assets.Bg}')`,
@@ -16,6 +30,7 @@ export const Main = () => (
     >
       <Pages.Views.AppBar />
       <Mui.Container sx={{ pt: 10 }}>
+        {/* <Pages.Views.ThemeSwitch /> */}
         <Mui.Grid container spacing={5}>
           <Mui.Grid item xs={12} md={6}>
             <Pages.Views.HeaderContent />

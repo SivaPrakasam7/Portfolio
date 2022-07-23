@@ -5,10 +5,11 @@ export const HeaderContent = () => (
   <Mui.Stack
     spacing={2}
     justifyContent="center"
+    className="typewriter"
     sx={{ height: { md: "90vh" } }}
   >
     <Mui.Typography variant="h3" color="primary">
-      I'm Sivaprakasam
+      Hi, I'm Sivaprakasam
     </Mui.Typography>
     <Mui.Typography variant="h5" sx={{ color: "#fff" }}>
       Web Developer

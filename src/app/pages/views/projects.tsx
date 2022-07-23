@@ -31,7 +31,54 @@ const Project = ({
   framework,
   time,
 }: projects) => (
-  <Mui.Card sx={{ height: "100%", position: "relative" }}>
+  <Mui.Card
+    sx={{
+      height: "100%",
+      position: "relative",
+      background: "#ffffff10",
+      "&::before": {
+        content: `'${title}'`,
+        position: "absolute",
+        // borderColor: "primary.main",
+        border: (theme) => `1px solid ${theme.palette.primary.main}`,
+        height: 50,
+        width: { xs: "100%", sm: 350 },
+        top: -1,
+        left: -1,
+        borderBottomRightRadius: 50,
+        p: 1,
+        pl: 2,
+        color: "primary.main",
+        fontSize: 20,
+        fontWeight: 600,
+      },
+      "&::after": {
+        content: `'${time}'`,
+        position: "absolute",
+        bgcolor: "primary.main",
+        height: 30,
+        width: 70,
+        bottom: 0,
+        right: 0,
+        borderTopLeftRadius: 20,
+        // borderTopRightRadius: 20,
+        p: 1,
+        pl: 2,
+        color: "#fff",
+        fontSize: 12,
+      },
+      border: (theme) =>
+        `1px solid ${Mui.colors.grey[200]}${
+          theme.palette.mode === "dark" ? "20" : ""
+        }`,
+      "&:hover": {
+        boxShadow: (theme) =>
+          theme.palette.mode === "dark"
+            ? "0 2px 5px #ffffff50"
+            : "0 2px 5px #00000050",
+      },
+    }}
+  >
     <Mui.Grid container>
       {/* <Mui.Grid item xs={12} sm={12}>
         <Mui.CardMedia
@@ -48,7 +95,7 @@ const Project = ({
             alignItems="center"
             justifyContent="space-between"
           >
-            <Mui.Typography variant="h6">{title}</Mui.Typography>
+            <Mui.Box flexGrow={1} />
             <Mui.AvatarGroup
               max={4}
               sx={{ "& 	.MuiAvatar-root": { height: 30, width: 30 } }}
@@ -103,13 +150,6 @@ const Project = ({
               </Mui.Button>
             )}
           </Mui.Stack>
-          <Mui.Typography
-            variant="caption"
-            color="primary"
-            sx={{ position: "absolute", bottom: 10, right: 10 }}
-          >
-            {time}
-          </Mui.Typography>
         </Mui.Stack>
       </Mui.Grid>
     </Mui.Grid>

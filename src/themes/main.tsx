@@ -12,14 +12,15 @@ export const Main = ({ children }: Child) => {
     localStorage.getItem("theme") === "dark"
   );
   const changeMode = () => {
-    localStorage.setItem("theme", mode ? "light" : "dark");
+    console.log("ok");
+    localStorage.setItem("theme", mode ? "dark" : "light");
     setMode(!mode);
   };
   const theme = React.useMemo(
     () =>
       Mui.createTheme({
         ...Themes.Global.Components(),
-        ...(mode ? Themes.Global.PaletteDark() : Themes.Global.PaletteLight()),
+        ...(true ? Themes.Global.PaletteDark() : Themes.Global.PaletteLight()),
         ...Themes.Global.Typography(),
       }),
     [mode]

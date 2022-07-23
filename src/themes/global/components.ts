@@ -28,10 +28,8 @@ export const Components = (): Pick<Mui.ThemeOptions, "components"> => ({
       styleOverrides: {
         root: {
           borderRadius: 10,
-          border: `1px solid ${Mui.colors.grey[200]}`,
-          "&:hover": {
-            boxShadow: "0 2px 5px #00000050",
-          },
+          // border: `1px solid ${Mui.colors.grey[200]}`,
+          // boxShadow: "0 2px 5px #ffffff50",
         },
       },
     },

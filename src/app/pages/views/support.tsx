@@ -17,7 +17,11 @@ export const Support = () => (
     </Mui.Stack>
     <Mui.Grid container spacing={2}>
       <Mui.Grid item xs={12} md={6}>
-        <Mui.CardMedia src={Assets.Freelauncer} component="img" />
+        <Mui.CardMedia
+          src={Assets.Freelauncer}
+          component="img"
+          sx={{ borderRadius: 20 }}
+        />
       </Mui.Grid>
       <Mui.Grid item xs={12} md={6}>
         <Mui.Stack spacing={2}>
@@ -79,7 +83,7 @@ export const Support = () => (
               - I provide my best with your team.
             </Mui.Typography>
             <Mui.Typography variant="body1" sx={{ pl: 5 }}>
-              - You can also verify resume. Let me help you.
+              - You can also verify my resume. Let me help you.
             </Mui.Typography>
           </Mui.Stack>
           <Mui.Stack spacing={1}>

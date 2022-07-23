@@ -6,4 +6,5 @@ export * from "./header-content";
 export * from "./profile";
 export * from "./projects";
 export * from "./support";
+export * from "./theme-switch";
 export * from "./webApps";
