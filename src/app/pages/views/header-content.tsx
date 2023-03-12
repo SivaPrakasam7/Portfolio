@@ -12,11 +12,12 @@ export const HeaderContent = () => (
       Hi, I'm Sivaprakasam
     </Mui.Typography>
     <Mui.Typography variant="h5" sx={{ color: "#fff" }}>
-      Web Developer
+    React Developer
     </Mui.Typography>
     <Mui.Typography variant="h6" sx={{ color: "#fff" }}>
-      I have an interest in web developement and linux fundamental concepts, So
-      learning new concepts in web and linux is hobby.
+    Building custom web applications using React.js and Node.js, as well as
+experience in developing Blockchain apps using Solidity and Web3. The skills mentioned, such as
+integrating third-party APIs and optimizing website performance.
     </Mui.Typography>
     <Mui.Stack direction="row" spacing={2} alignItems="center">
       <Mui.Button
