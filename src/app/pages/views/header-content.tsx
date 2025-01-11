@@ -12,12 +12,10 @@ export const HeaderContent = () => (
       Hi, I'm Sivaprakasam
     </Mui.Typography>
     <Mui.Typography variant="h5" sx={{ color: "#fff" }}>
-    React Developer
+    Web Developer
     </Mui.Typography>
     <Mui.Typography variant="h6" sx={{ color: "#fff" }}>
-    Building custom web applications using React.js and Node.js, as well as
-experience in developing Blockchain apps using Solidity and Web3. The skills mentioned, such as
-integrating third-party APIs and optimizing website performance.
+    Experienced web developer with 3 years of expertise in React, Vue, JavaScript, Typescript and responsive web development. Skilled in building scalable applications and delivering seamless user experiences
     </Mui.Typography>
     <Mui.Stack direction="row" spacing={2} alignItems="center">
       <Mui.Button

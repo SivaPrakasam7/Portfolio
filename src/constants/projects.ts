@@ -4,6 +4,20 @@ export const PROJECTS = [
   {
     image:
       "https://raw.githubusercontent.com/SivaPrakasam7/DemoCrypto/master/src/assets/main.png",
+    title: "Fullstack setup",
+    collaborators: [
+      "https://avatars.githubusercontent.com/u/66865924?s=70&v=4",
+    ],
+    content:
+      "The project includes ready-to-use bash scripts to streamline setup, database management, and testing. These scripts simplify the process, but if you're using an unsupported OS, you can execute the commands manually as outlined in the script files.",
+    github: "https://github.com/SivaPrakasam7/DemoCrypto",
+    deployed_url: "https://democrypto-7f0f3.web.app",
+    framework: "Vue, Vite, Tailwind, Typescript, Cypress, Lerna, Git actions",
+    time: "2024",
+  },
+  {
+    image:
+      "https://raw.githubusercontent.com/SivaPrakasam7/DemoCrypto/master/src/assets/main.png",
     title: "Demo Crypto",
     collaborators: [
       "https://avatars.githubusercontent.com/u/66865924?s=70&v=4",
@@ -57,7 +71,7 @@ export const PROJECTS = [
       "https://avatars.githubusercontent.com/u/66865924?s=70&v=4",
     ],
     content:
-      "Crypto trade practice platform. Different crypto trading logics with coinbase realtime data from websocket",
+      "Search by user name with set social media publicly available information. That make a Human information resources with recursive search. MERN stack used and Clean architectured followed in this developement.",
     github: "https://github.com/SivaPrakasam7/SociaLod_MERNStack",
     deployed_url: "https://socialod.herokuapp.com",
     framework: "MERN Stack, Mui V4",

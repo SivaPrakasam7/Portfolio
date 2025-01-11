@@ -19,13 +19,13 @@ export const AppBar = () => {
           variant="h5"
           sx={{ color: trigger ? "primary.main" : undefined }}
         >
-          Developer
+          Web Developer
         </Mui.Typography>
         <Mui.Box flexGrow={1} />
         <Mui.Button variant="contained" href={Assets.Resume} download>
           Get Resume
         </Mui.Button>
-        <Mui.IconButton component={Mui.Link} href="https://wa.me/916374399577">
+        <Mui.IconButton component={Mui.Link} href="https://wa.me/916382657699">
           <MuiIcons.WhatsApp color="primary" fontSize="large" />
         </Mui.IconButton>
       </Mui.Stack>

@@ -14,7 +14,7 @@ export const Contact = () => (
         </Mui.Stack>
         <Mui.Stack direction="row" spacing={1}>
           <MuiIcons.Phone color="primary" />
-          <Mui.Typography variant="body1">+91 6374399577</Mui.Typography>
+          <Mui.Typography variant="body1">+91 6382657699</Mui.Typography>
         </Mui.Stack>
       </Mui.Stack>
     </Mui.Grid>
